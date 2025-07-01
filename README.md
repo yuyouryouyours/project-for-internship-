@@ -1,3 +1,3 @@
 # project-for-internship-
 
-this project project is to entry internship.
+this project is to entry internship.
