@@ -14,7 +14,7 @@ const isValid = (s) => {
                     let check = j-i;
                     checkList.push(check);
                     if(check%2 !=1){
-                        flag = false
+                        flag = false;
                     }
                 }
             }
@@ -44,7 +44,7 @@ const isValid = (s) => {
     }
     // when all check === 3, for example("{([})]"), it is false 
     // only when every symbol is used, this problem is happened
-    let sum = 0
+    let sum = 0;
     checkList.forEach(num =>sum+=num)
     if(sum===9){
         flag=false;
@@ -56,4 +56,5 @@ const isValid = (s) => {
         return false;
     }
 }
+
 console.log(isValid(""));  //input here
